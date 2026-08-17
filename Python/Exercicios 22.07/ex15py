@@ -1,0 +1,7 @@
+# Escreva um programa que leia a idade de uma pessoa e exiba se ela pode ou não votar.
+idade = int(input('Digite a sua idade: '))
+
+if idade >= 18:
+    print('Você pode votar !')
+else:
+    print('Você não pode votar !')
